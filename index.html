@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <p class="navbar-brand" style="color: #1abc9c">CONTACT ME</p>
+      </div>
+        <ul class="nav navbar-nav navbar-right">
+          <!-- 6 -->
+          <li id="home"><a href="/email/index.html">HOME</a></li>
+          <li id="about"><a href="/email/table.php">DATA</a></li>
+          <li id="contact"><a href="#">ABOUT</a></li>
+        </ul>
+    </div>
+  </nav>
+
+  <body>
+    <table>
+      <tr>
+      <td class="form">
+      <form action="mail.php" method="post">
+      <p>First name:</p>
+      <P><input type="text" name="firstName"></p>    
+      <p>Last name:</p>
+      <p><input type="text" name="lastName"></p>
+      <p>Email:</p>
+      <p><input type="email" name="email"></p>
+      <p>Message:</p>
+      <textarea id="textArea" name="message" rows="4" cols="50" placeholder="Text should be up to 1000 characters"></textarea>
+      <br>
+      <br>
+      <input type="submit" name="submit" value="SUBMIT" style="background-color: #DFB8DC; border-radius: 100%; width: 75px; height: 50px;color: #17A98C;">
+      </form>
+    </td>
+
+    <td class="image">
+      <p><img src="image.png" style="width: 400px; height: 300px;" ></p>
+    </td>
+  </tr>
+</table>
+    
+<footer>© Sabina Bojadžić 2020</footer>
+
+</body>
+</html>
